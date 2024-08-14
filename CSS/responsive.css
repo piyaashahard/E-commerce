@@ -1,0 +1,31 @@
+@media (min-width: 320px) and (max-width: 390px){
+    #middleHeader ul li a{
+        font-size: 22px;
+        color: var(--gray-scale-gray-–-800);
+    }
+    #middleHeader ul li{
+        padding: 0 7px;
+        border-right: 1px solid var(--gray-scale-gray-–-200);
+    }
+
+    .bannerSmall .banner{
+        margin-top: 20px;
+    }    
+
+    #lower-hero h2{
+        font-size:20px;
+    }
+
+    .makeitColumn{
+        display: flex;
+        flex-direction: column;
+    }
+        
+    #deals .productCard{
+        margin-top: 0;
+    }
+
+    #discount{
+        display: none;
+    }
+}

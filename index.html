@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN OF FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- STYLE.CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- RESPONSIVE.CSS -->
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    <!-- LINK OF bootstrap-css -->
+     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <!-- CDN OF GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>E-Comerce</title>
+</head>
+<body>
+    <!-- header starts from here -->
+    <header>
+        <!-- top header starts from here -->
+        <section id="topHeader">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="topLeft col-lg d-none d-lg-block">
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i> Store Location: Lincoln- 344, Illinois, Chicago, USA
+                        </p>
+                    </div>
+
+                    <div class="topRight col-lg">
+                        <div class="d-flex justify-content-center  justify-content-lg-end align-items-center">
+                            <form action="">
+                                <select name="" id="">
+                                    <option value="">ENG</option>
+                                    <option value="">BNG</option>
+                                    <option value="">HIN</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="">USD</option>
+                                    <option value="">TAKA</option>
+                                </select>
+                            </form>
+                            <a href="#">Sign in / Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- top header ends here -->
+
+        <!-- midle header starts from here -->
+        <section id="middleHeader">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+
+                    <div class="col-2 d-lg-none">
+                        <a class="text-dark" data-bs-toggle="offcanvas" href="#sidebar" role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-list"></i>
+                        </a>
+                          
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                                <img src="Images/Logo.png" alt="">
+                              </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Bolg</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact with us</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-lg-3 order-1">
+                        <a href="#">
+                            <img src="./Images/Logo.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mt-3 px-lg-0 order-3 order-lg-2">
+                        <form action="">
+                            <div class="d-flex">
+                                <div class="searchArea">
+                                    <span><i class="fa-solid fa-magnifying-glass"></i> </span>
+                                    <input type="text" placeholder="Search">
+                                </div>
+                                <button>Search</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4 order-2 col-lg-3 order-lg-3">
+                        <ul class="d-flex justify-content-end align-items-center">
+                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                            <li>
+                                <a href="#">
+                                    <div class="d-flex align-items-center">
+                                        <div class="cartIcon">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="cartCount">2</span>
+                                        </div>
+                                        <div class="cartText d-none d-lg-block">
+                                            <p>Shopping cart :</p>
+                                            <h5>$57.00</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- middle header ends here -->
+
+        <!-- bottom header starts from here -->
+         <section class="d-none d-lg-block" id="bottomHeader">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-10">
+                        <div class="menu">
+                            <ul class="d-flex">
+                                <li>
+                                    <a class="active" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact with us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 contact">
+                        <span><i class="fa-solid fa-phone-volume"></i></span>
+                        <a href="#">(219) 555-0114</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- bottom header ends here -->
+    </header>
+    <!-- header ends here -->
+
+    <!-- main starts from here -->
+     <main>
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="banner">
+                            <a href="#"><img class="img-fluid" src="./Images/Bannar (1).png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 bannerSmall">
+                        <div class="row">
+                            <div class="banner col-md-12">
+                                <a href="#"><img class="img-fluid w-100" src="./Images/Bannar (2).png" alt=""></a>
+                            </div>
+                            <div class="banner col-md-12">
+                                <a href="#"><img class="img-fluid w-100" src="./Images/Bannar (3).png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service">
+            <div class="container">
+                <div class="row">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li class="d-flex col-md-6 col-lg-3">
+                            <a href="#">
+                                <span><i class="fa-solid fa-truck-fast"></i></span>
+                            </a>
+                            <a href="#">
+                                <div class="service-details">
+                                    <h5>Free Shipping</h5>
+                                    <p>Free shipping on all your orders</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex col-md-6 col-lg-3">
+                            <a href="#">
+                                <span><i class="fa-solid fa-headphones-simple"></i></span>
+                            </a>
+                            <a href="#">
+                                <div class="service-details">
+                                    <h5>Customer Support 24/7</h5>
+                                    <p>Instant access to Support</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex col-md-6 col-lg-3">
+                            <a href="#">
+                                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                            </a>
+                            <a href="#">
+                                <div class="service-details">
+                                    <h5>100% Secure Payment</h5>
+                                    <p>We ensure your money is safe</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="d-flex col-md-6 col-lg-3">
+                            <a href="#">
+                                <span><i class="fa-solid fa-box"></i></span>
+                            </a>
+                            <a href="#">
+                                <div class="service-details">
+                                    <h5>Money-Back Guarantee</h5>
+                                    <p>30 Days Money-Back Guarantee</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="lower-hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2>Popular Categories</h2>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="d-flex justify-content-end sucess">View All</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center row products">
+                    <div>
+                        <img src="./Images/products (1).png" alt="">
+                        <p>Fresh Fruit</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (2).png" alt="">
+                        <p>Fresh Vegetables</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (3).png" alt="">
+                        <p>Meat and Fish</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (4).png" alt="">
+                        <p>Snanks</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (5).png" alt="">
+                        <p>Beverages</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (6).png" alt="">
+                        <p>Beauty and Health</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex justify-content-center row products">
+                    <div class="col-3 col-md-2">
+                        <img src="./Images/products (7).png" alt="">
+                        <p>Bread and Bakery</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (8).png" alt="">
+                        <p>Baking Needs</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (9).png" alt="">
+                        <p>Cookies</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (10).png" alt="">
+                        <p>Diabatic Food</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (11).png" alt="">
+                        <p>Dish Detergents</p>
+                    </div>
+                    <div>
+                        <img src="./Images/products (12).png" alt="">
+                        <p>Oil</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2>Popular Products</h2>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="d-flex justify-content-end sucess">View All</p>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image.png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 50%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Apple</h4>
+                                    <p>$14.99 <span>$20.99</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(8).png" alt="" class="img-fluid w-100 d-block">
+                        
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Chilli</h4>
+                                    <p>$17.99 <span>$29.99</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(2).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 25%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Capcium</h4>
+                                    <p>$24.99 <span>$30</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(6).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Fresh Cauliflower</h4>
+                                    <p>$14.50 <span>$20.00</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(5).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 35%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Corn</h4>
+                                    <p>$20.00</p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(4).png" alt="" class="img-fluid w-100 d-block">
+                    
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Eggplant</h4>
+                                    <p>$34.00</p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(3).png" alt="" class="img-fluid w-100 d-block">
+                            
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Lettuce</h4>
+                                    <p>$9.25</p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(2).png" alt="" class="img-fluid w-100 d-block">
+                            
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Chinease Cabbage</h4>
+                                    <p>$12.00</p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(1).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 30%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Freash Orange</h4>
+                                    <p>$20.50 <span>$25.99</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productCard col-md-4 col-lg-2 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(9).png" alt="" class="img-fluid w-100 d-block">
+                            
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Big Potatose</h4>
+                                    <p>$20.99</p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="shop-now">    
+            <div class="container">
+                <div class="row">
+                    <div class="all-shops d-flex flex-wrap justify-content-between">
+                        <!-- 1 -->
+                        <div class="shop-item-1 col-lg-4 col-md-12 col-sm-12 col-12">
+                            <p>Best Deals</p>
+                            <h3>Sale of the Month</h3>
+                            <div class="row">
+                                <div class="times d-flex">
+                                    <div class="day">
+                                        <h5>00</h5>
+                                        <p>Days</p>
+                                    </div>
+                                    <div class="colum">
+                                        <p>:</p>
+                                    </div>
+                                    <div class="day">
+                                        <h5>02</h5>
+                                        <p>Hours</p>
+                                    </div>
+                                    <div class="colum">
+                                        <p>:</p>
+                                    </div>
+                                    <div class="day">
+                                        <h5>18</h5>
+                                        <p>mins</p>
+                                    </div>
+                                    <div class="colum">
+                                        <p>:</p>
+                                    </div>
+                                    <div class="day">
+                                        <h5>46</h5>
+                                        <p>secs</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn">
+                                <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="shop-item-2 col-lg-4 col-md-12 col-sm-12 col-12">
+                            <p>85% Fat Free</p>
+                            <h3>Low-Fat Meat</h3>
+                            <h4>Started at <span>$79.99</span></h4>
+
+                            <div class="btn">
+                                <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="shop-item-3 col-lg-4 col-md-12 col-sm-12 col-12">
+                            <p>Summer Sale</p>
+                            <h3>100% Fresh Fruit</h3>
+                            <h4>Up to <span>64% OFF</span></h4>
+
+                            <div class="btn">
+                                <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    
+        <section id="deals">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2>Hot deals</h2>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="d-flex justify-content-end sucess">View All</p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="row">
+
+                        <div class="col-lg-5 px-0">
+                            <div class="productCard h-100 featuredItem">
+                                <div class="productImage">
+                                    <img src="Images/half.png" alt="" class="img-fluid w-100 d-block">
+                                    
+                                    <div class="lable d-flex align-items-center justify-content-center">
+                                        <p>Sale 50%</p>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-center lable-primary">
+                                        <p>Best Sale</p>
+                                    </div>
+                                    
+                                    <div class="quickIcons">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="quickButtons">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <a href="#">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-8">
+                                                <a href="#" class="cartBtn">
+                                                    Add to Cart <span class="ms-2"><i class="fa-solid fa-bag-shopping"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#">
+                                                    <i class="fa-regular fa-eye"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <h4>Green Apple</h4>
+                                        <p>$14.99 <span>$20.99</span></p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star empty"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="timer">
+                                        <ul class="d-flex justify-content-center">
+                                            <li class="text-center">
+                                                <span class="d-block">01</span>
+                                                Days
+                                            </li>
+                                            <li class="text-center">
+                                                <span class="d-block">23</span>
+                                                Hours
+                                            </li>
+                                            <li class="text-center">
+                                                <span class="d-block">34</span>
+                                                Mins
+                                            </li>
+                                            <li class="text-center">
+                                                <span class="d-block">58</span>
+                                                Secs
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 d-flex justify-content-center align-items-center">
+                            <div class="row productCardDiv">
+                                <div class="productCard col-md-6 col-lg-4 col-sm-6">
+                                    <div class="productImage">
+                                        <img src="Images/Image(2).png" alt="" class="img-fluid w-100 d-block">
+                                        <div class="lable d-flex align-items-center justify-content-center">
+                                            <p>Sale 50%</p>
+                                        </div>
+                                        <div class="quickIcons">
+                                            <ul>
+                                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productDetails">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <h4>Green Apple</h4>
+                                                <p>$14.99 <span>$20.99</span></p>
+                                                <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productCard col-md-6 col-lg-4 col-sm-6">
+                                    <div class="productImage">
+                                        <img src="Images/Image(3).png" alt="" class="img-fluid w-100 d-block">
+                                        <div class="lable d-flex align-items-center justify-content-center">
+                                            <p>Sale 50%</p>
+                                        </div>
+                                        <div class="quickIcons">
+                                            <ul>
+                                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productDetails">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <h4>Green Apple</h4>
+                                                <p>$14.99 <span>$20.99</span></p>
+                                                <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productCard col-md-6 col-lg-4 col-sm-6">
+                                    <div class="productImage">
+                                        <img src="Images/Image(4).png" alt="" class="img-fluid w-100 d-block">
+                                        <div class="lable d-flex align-items-center justify-content-center">
+                                            <p>Sale 50%</p>
+                                        </div>
+                                        <div class="quickIcons">
+                                            <ul>
+                                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productDetails">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <h4>Green Apple</h4>
+                                                <p>$14.99 <span>$20.99</span></p>
+                                                <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productCard col-md-6 col-lg-4 col-sm-6">
+                                    <div class="productImage">
+                                        <img src="Images/Image(6).png" alt="" class="img-fluid w-100 d-block">
+                                        <div class="lable d-flex align-items-center justify-content-center">
+                                            <p>Sale 50%</p>
+                                        </div>
+                                        <div class="quickIcons">
+                                            <ul>
+                                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productDetails">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <h4>Green Apple</h4>
+                                                <p>$14.99 <span>$20.99</span></p>
+                                                <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="productCard col-md-6 col-lg-4 col-sm-6">
+                                    <div class="productImage">
+                                        <img src="Images/Image(7).png" alt="" class="img-fluid w-100 d-block">
+                                        <div class="lable d-flex align-items-center justify-content-center">
+                                            <p>Sale 50%</p>
+                                        </div>
+                                        <div class="quickIcons">
+                                            <ul>
+                                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productDetails">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <h4>Green Apple</h4>
+                                                <p>$14.99 <span>$20.99</span></p>
+                                                <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="productCard col-md-6 col-lg-4 col-sm-6">
+                                    <div class="productImage">
+                                        <img src="Images/Image(8).png" alt="" class="img-fluid w-100 d-block">
+                                        <div class="lable d-flex align-items-center justify-content-center">
+                                            <p>Sale 50%</p>
+                                        </div>
+                                        <div class="quickIcons">
+                                            <ul>
+                                                <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productDetails">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <h4>Green Apple</h4>
+                                                <p>$14.99 <span>$20.99</span></p>
+                                                <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="productCard inner-featuredItem col-md-6 col-lg-3 col-sm-6">
+                                <div class="productImage">
+                                    <img src="Images/Image(9).png" alt="" class="img-fluid w-100 d-block">
+                                    <div class="lable d-flex align-items-center justify-content-center">
+                                        <p>Sale 50%</p>
+                                    </div>
+                                    <div class="quickIcons">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="row align-items-center">
+                                        <div class="col-10">
+                                            <h4>Green Apple</h4>
+                                            <p>$14.99 <span>$20.99</span></p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="productCard inner-featuredItem col-md-6 col-lg-3 col-sm-6">
+                                <div class="productImage">
+                                    <img src="Images/Image(5).png" alt="" class="img-fluid w-100 d-block">
+                                    <div class="lable d-flex align-items-center justify-content-center">
+                                        <p>Sale 50%</p>
+                                    </div>
+                                    <div class="quickIcons">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="row align-items-center">
+                                        <div class="col-10">
+                                            <h4>Green Apple</h4>
+                                            <p>$14.99 <span>$20.99</span></p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="productCard inner-featuredItem col-md-6 col-lg-3 col-sm-6">
+                                <div class="productImage">
+                                    <img src="Images/deals (1).png" alt="" class="img-fluid w-100 d-block">
+                                    <div class="lable d-flex align-items-center justify-content-center">
+                                        <p>Sale 50%</p>
+                                    </div>
+                                    <div class="quickIcons">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="row align-items-center">
+                                        <div class="col-10">
+                                            <h4>Green Apple</h4>
+                                            <p>$14.99 <span>$20.99</span></p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="productCard inner-featuredItem col-md-6 col-lg-3 col-sm-6">
+                                <div class="productImage">
+                                    <img src="Images/deals (2).png" alt="" class="img-fluid w-100 d-block">
+                                    <div class="lable d-flex align-items-center justify-content-center">
+                                        <p>Sale 50%</p>
+                                    </div>
+                                    <div class="quickIcons">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="row align-items-center">
+                                        <div class="col-10">
+                                            <h4>Green Apple</h4>
+                                            <p>$14.99 <span>$20.99</span></p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="productCard inner-featuredItem col-md-6 col-lg-3 col-sm-6">
+                                <div class="productImage">
+                                    <img src="Images/deals (3).png" alt="" class="img-fluid w-100 d-block">
+                                    <div class="lable d-flex align-items-center justify-content-center">
+                                        <p>Sale 50%</p>
+                                    </div>
+                                    <div class="quickIcons">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                            <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="row align-items-center">
+                                        <div class="col-10">
+                                            <h4>Green Apple</h4>
+                                            <p>$14.99 <span>$20.99</span></p>
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discount">
+            <div class="container">
+                <img src="./Images/Discount Bannar.png" alt="">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2>Popular Products</h2>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="d-flex justify-content-end sucess">View All</p>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+
+                    <div class="productCard col-md-4 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image.png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 50%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Apple</h4>
+                                    <p>$14.99 <span>$20.99</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-3 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(8).png" alt="" class="img-fluid w-100 d-block">
+                        
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Chilli</h4>
+                                    <p>$17.99 <span>$29.99</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-3 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(2).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 25%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Green Capcium</h4>
+                                    <p>$24.99 <span>$30</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="productCard col-md-4 col-lg-3 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(6).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Fresh Cauliflower</h4>
+                                    <p>$14.50 <span>$20.00</span></p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star empty"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productCard col-md-4 col-lg-3 col-sm-6">
+                        <div class="productImage">
+                            <img src="Images/Image(5).png" alt="" class="img-fluid w-100 d-block">
+                            <div class="lable d-flex align-items-center justify-content-center">
+                                <p>Sale 35%</p>
+                            </div>
+                            <div class="quickIcons">
+                                <ul>
+                                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="productDetails">
+                            <div class="row align-items-center">
+                                <div class="col-10">
+                                    <h4>Corn</h4>
+                                    <p>$20.00</p>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="cart-btn"><div class="fa-solid fa-bag-shopping"></div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="lastest">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Latest News</h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="or col-4">
+                        <img src="./Images/LN (1).png" alt="">
+                        <div class="calender">
+                            <p>
+                                18
+                                <span>Nov</span>
+                            </p>
+                        </div>
+
+                        <div class="d-flex lower-calender-main">
+                            <div class="lower-calender">
+                                <i class="fa-solid fa-tag"></i> Food
+                            </div>
+                            <div  class="lower-calender">
+                                <i class="fa-regular fa-user"></i> By Admin
+                            </div>
+                            <div class="lower-calender">
+                                <i class="fa-regular fa-comment"></i> 65 Comments
+                            </div>
+                        </div>
+
+                        <div class="lower-calender-div">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nobis.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+
+                    <div class="or col-4">
+                        <img src="./Images/LN (2).png" alt="">
+                        <div class="calender">
+                            <p>
+                                14
+                                <span>Feb</span>
+                            </p>
+                        </div>
+
+                        <div class="d-flex lower-calender-main">
+                            <div class="lower-calender">
+                                <i class="fa-solid fa-tag"></i> Food
+                            </div>
+                            <div  class="lower-calender">
+                                <i class="fa-regular fa-user"></i> By Admin
+                            </div>
+                            <div class="lower-calender">
+                                <i class="fa-regular fa-comment"></i> 65 Comments
+                            </div>
+                        </div>
+
+                        <div class="lower-calender-div">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nobis.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+
+                    <div class="or col-4">
+                        <img src="./Images/LN (3).png" alt="">
+                        <div class="calender">
+                            <p>
+                                21
+                                <span>Dec</span>
+                            </p>
+                        </div>
+                        
+                        <div class="d-flex lower-calender-main">
+                            <div class="lower-calender">
+                                <i class="fa-solid fa-tag"></i> Food
+                            </div>
+                            <div  class="lower-calender">
+                                <i class="fa-regular fa-user"></i> By Admin
+                            </div>
+                            <div class="lower-calender">
+                                <i class="fa-regular fa-comment"></i> 65 Comments
+                            </div>
+                        </div>
+
+                        <div class="lower-calender-div">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nobis.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2>Client Testimonials</h2>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="d-flex justify-content-end arrow">
+                            <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="client col-md-4 col-lg-4 col-sm-6">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti quia itaque. Quae eaque mollitia deserunt atque tenetur et!
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="Images/client (1).png" alt="">
+                            <div>
+                                <h4>Robert Fox</h4>
+                                <p class="customer">Customer</p>
+                            </div>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client col-md-4 col-lg-4 col-sm-6">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium iusto, maiores itaque hic repellendus enim earum saepe, adipisci.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="Images/client (2).png" alt="">
+                            <div>
+                                <h4>Robert Fox</h4>
+                                <p class="customer">Customer</p>
+                            </div>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client col-md-4 col-lg-4 col-sm-6">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet esse accusamus distinctio atque voluptatum dolorum cumque consectetur.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="Images/client (3).png" alt="">
+                            <div>
+                                <h4>Robert Fox</h4>
+                                <p class="customer">Customer</p>
+                            </div>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="follow">
+            <div class="container">
+                <img src="Images/Company Logo.png" alt="">
+
+                <h2>Follow us on Instagram</h2>
+
+                <div class="row d-flex justify-content-center">
+                    <img src="Images/follow (1).png" alt="">
+                    <img src="Images/follow (6).png" alt="">
+                    <img src="Images/follow (3).png" alt="">
+                    <img src="Images/follow (4).png" alt="">
+                    <img src="Images/follow (5).png" alt="">
+                    <img src="Images/follow (2).png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <div class="container">
+                <div class="d-flex align-items-center row">
+                    <div class="left col-5 col-sm-12 text-center">
+                        <h2>Subcribe our Newsletter</h2>
+                        <p>
+                            Pellentesque eu nibh eget mauris congue mattis mattis nec
+                            <br>
+                            tellus. Phasellus imperdiet elit eu magna
+                        </p>
+                    </div>
+                    <div class="middle col-3 text-center col-sm-12">
+                        <input type="email" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="end col-3 col-sm-12 text-center">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main ends here -->
+
+    <!-- footer starts from here -->
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-4 col-sm-12">
+                    <img src="./Images/Logo(1).png" alt="">
+                    <p class="gray">
+                        Morbi cursus porttitor enim lobortis molestie.
+                        <br> Duis gravida turpis dui, eget bibendum magna
+                        <br> congue nec.
+                    </p>
+                    <p><span class="underLine">(219) 555-1011</span> <span class="gray">or</span> <span class="underLine">roxy@gmail.com</span></p>
+                </div>
+
+                <div class="col-2 col-md-2 col-sm-3">
+                    <h4>My Account</h4>
+                    <p class="hi">
+                        <span class="gray">My Account</span>
+                        <br>
+                        <span class="gray">Order History</span>
+                        <br>
+                        <span class="gray">hopping Cart</span>
+                        <br>
+                        <span class="gray">Wishlist</span>
+                    </p>
+                </div>
+                
+                <div class="col-2 col-md-2 col-sm-3">
+                    <h4>Helps</h4>
+                    <p class="hi">
+                        <span class="gray">Contact</span>
+                        <br>
+                        <span class="gray">Faqs</span>
+                        <br>
+                        <span class="gray">Terms & Conditions</span>
+                        <br>
+                        <span class="gray">Privacy Policy</span>
+                    </p>
+                </div>
+
+                <div class="col-2 col-md-2 col-sm-3">
+                    <h4>Proxy</h4>
+                    <p class="hi">
+                        <span class="gray">About</span>
+                        <br>
+                        <span class="gray">Shop</span>
+                        <br>
+                        <span class="gray">Product</span>
+                        <br>
+                        <span class="gray">Track Order</span>
+                    </p>
+                </div>
+
+                <div class="col-2">
+                    <h4>Categories</h4>
+                    <p class="hi">
+                        <span class="gray">Fruit & Vegetables</span>
+                        <br>
+                        <span class="gray">Meat & Fish</span>
+                        <br>
+                        <span class="gray">Bread & Bakery</span>
+                        <br>
+                        <span class="gray">Beauty & Health</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <br>
+            <hr>
+
+            <div class="row">
+                <div class="col-9">
+                    <p class="gray">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                </div>
+                <div class="col-3 d-none d-lg-block">
+                    <div class="d-flex">
+                        <div class="pay">Pay</div>
+                        <div class="pay">VISA</div>
+                        <div class="pay">Discover</div>
+                        <div class="pay"><i class="fa-solid fa-lock"></i> Secure</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- footer ends here -->
+
+    <!-- LINK OF bootstrap-js -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
